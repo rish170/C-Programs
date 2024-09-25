@@ -6,10 +6,10 @@ int main(){
     int c;
     printf("Enter n to print Fibonacci Series: ");
     scanf("%d", &n);
-    printf("%d\t%d\t", a, b);
+    printf("%d %d ", a, b);
     while(i < n){
         c = a+b;
-        printf("%d\t", c);
+        printf("%d ", c);
         a = b;
         b = c;
         i++;
